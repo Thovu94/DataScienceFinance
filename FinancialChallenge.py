@@ -35,4 +35,13 @@ profitMargin = np.around(profitMargin, decimals = 2)
 print("Profit Margin for each month (%): {}".format(profitMargin))
 print("-------------------------------")
 #-----------------------------------------------------------------------------------------------
-
+#6. The best month - where the profit after tax was max for the year
+profitMax = np.amax(profitAfterTax)
+print("The best month of profit is: {}".format(profitMax))
+print("-------------------------------")
+#-----------------------------------------------------------------------------------------------
+#7. The worst month - where the profit after tax was min for the year
+profitMin = np.amin(profitAfterTax)
+print("The worst month of profit is: {}".format(profitMin))
+print("-------------------------------")
+#-----------------------------------------------------------------------------------------------
